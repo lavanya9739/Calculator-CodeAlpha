@@ -1,0 +1,63 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    animation: fadeIn 1s ease-out; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.calculator {
+    background-color: #f9f9f9;
+    border: solid 2px black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    animation: slideUp 1s ease-out; /* Slide-up animation */
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+input[type="button"] {
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s ease-in-out; /* Smooth transition */
+}
+
+input[type="button"]:hover {
+    background-color: darkgray;
+}
+
+input[type="button"]:active {
+    transform: scale(0.95); /* Shrinks the button slightly on click */
+    background-color: gray; /* Darker color on click */
+}
+
+input[type="text"] {
+    background-color: white;
+    border: solid black 2px;
+    width: calc(100% - 12px);
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: right;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out; /* Input field color transition */
+}

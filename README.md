@@ -11,23 +11,19 @@ This is a simple calculator web application built using **HTML**, **CSS**, and *
 - **Responsive Design:** The calculator adjusts its layout and styling depending on the screen size.
 
 ## Project Structure
-- calculator/ │
--             ├── index.html # Main HTML file (structure of the calculator) 
--             ├── styles.css # CSS file (styling and animations) 
--             ├── script.js # JavaScript file (functionalities of the calculator) 
--             ├── README.md # This documentation file
+- calculator/
+-  │
+-  ├── index.html # Main HTML file (structure of the calculator) 
+-  ├── styles.css # CSS file (styling and animations) 
+-  ├── script.js # JavaScript file (functionalities of the calculator) 
+-  ├── README.md # This documentation file
 
 
 ## How to Use
 
-1. **Clone or download this repository.**
-    ```bash
-    git clone https://github.com/yourusername/calculator.git
-    ```
-   
-2. **Open the `index.html` file in any modern web browser.**
+1. **Open the `index.html` file in any modern web browser.**
 
-3. **Use either mouse or keyboard to operate the calculator:**
+2. **Use either mouse or keyboard to operate the calculator:**
    - Click on the buttons for inputs.
    - Use the following keyboard shortcuts:
      - `Enter`: To evaluate the expression.
